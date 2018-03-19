@@ -1,0 +1,20 @@
+//If the distance measure is Euclidean, use the following code
+
+def find_neighbor(trainx,test_point):
+     distance_vector=[np.sqrt(np.sum(np.square(trainx[i]-test_point))) for i in range(len(trainx))]
+     return np.argmin(distance_vector)
+def NN_L2(trainx, trainy, testx):
+    index_vector=[find_neighbor(trainx,testx[i,]) for i in range(len(testx))]
+    labels=trainy[index_vector]
+    return labels
+    
+//If the distance measure is Manhattan, use the following code
+
+def find_neighbor_index(trainx,test_point):
+    distance_vector=[np.sum(abs(trainx[i]-test_point)) for i in range(len(trainx))]
+    return np.argmin(distance_vector)
+def NN_L1(trainx, trainy, testx):
+    neighbor_index=[find_neighbor_index(trainx,testx[i,]) for i in range(len(testx))]
+    labels=trainy[neighbor_index]
+    return labels
+ 
