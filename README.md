@@ -1,2 +1,5 @@
 # Machine-Learning
-Machine Learning Projects, Machine Learning Algorithm implementations are maintained here
+Contents:
+   1. Machine Learning Projects I have worked on 
+   2. Machine Learning Algorithm implementations from scratch
+   3. Code to automate Data Science 
