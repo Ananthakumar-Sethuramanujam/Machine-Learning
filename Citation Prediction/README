@@ -1,0 +1,7 @@
+Information about research papers such as full abstract, title of the article and date of publication was given.
+Each article is identified by a unique id. The task is to predict the list of unique ids of research papers cited by every paper.
+
+Approach:
+Abstract and title of the article were lemmatized. Then map reduce was applied to get the count of each unique word (in abstract and title)
+and top 10 words were retained in each row. Then number of common words between a row and every other row was found out. 
+Then for each row, top 13 unique ids were predicted as cited papers based on the number of common words. 
