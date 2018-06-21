@@ -1,0 +1,3 @@
+Heard of Urban Sound Classification Dataset? Read on.
+Audio files in .WAV format is given as input. The task is to classify the sounds in 10 categories
+Used Librosa library to process audio files and Keras to build the model
