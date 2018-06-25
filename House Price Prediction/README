@@ -1,0 +1,15 @@
+This project is related to a hackathon named 'Bengaluru House Price Prediction' on machinehack.com
+You can find the train and test data set in this folder
+
+Totally eight features are given.
+
+1. Area Type - Carpet Area, Plot Area, Built up Area, Super Built up Area
+2. Location  - More than 1000 unique locations in Bengaluru
+3. Bath      - Number of bathrooms
+4. Balcony   - Number of balcony
+5. Size      - X BHK, X RK, X Bedroom (Fill X with a number)
+6. Total Square Feet
+7. Availability - Immediate Possession, Ready to Move, Dated
+8. Society   - Which society it belongs to?
+
+
